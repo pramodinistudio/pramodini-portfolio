@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Credit Card Marketplace — Case Study · Pramodini Subramanya</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Outfit:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="scroll-bar"></div>
+
+<!-- ============ NAV ============ -->
+<nav class="nav enter">
+  <a href="index.html" class="nav-brand brand-logo" data-transition><span class="brand-mark">Ps</span><span class="brand-name">Pramodini Subramanya</span></a>
+  <div class="nav-right">
+    <div class="nav-links">
+      <a href="index.html#case-studies" class="active" data-transition>Case studies</a>
+      <a href="index.html#how-i-work" data-transition>How I work</a>
+      <a href="about.html" data-transition>About</a>
+    </div>
+    <a href="resume.pdf" download class="ghost-btn">Resume ↓</a>
+    <button class="nav-burger" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-menu">
+  <a href="index.html#case-studies" data-transition>Case studies</a>
+  <a href="index.html#how-i-work" data-transition>How I work</a>
+  <a href="about.html" data-transition>About</a>
+  <a href="resume.pdf" download>Resume ↓</a>
+</div>
+
+<!-- ============ HERO ============ -->
+<header class="hero cs-cover-hero" data-screen-label="Case study hero">
+  <div class="hero-inner cc-hero-grid">
+    <div class="cc-hero-copy">
+      <div class="cs-breadcrumb enter" style="--d:120ms">
+        <a href="index.html#case-studies" data-transition>← Portfolio</a>
+        <span>→</span>
+        <a href="index.html#case-studies" data-transition>Case studies</a>
+        <span>→</span>
+        <span style="color:rgba(255,255,255,0.5);">Credit Card Marketplace</span>
+      </div>
+      <div class="eyebrow hero-eyebrow enter" style="--d:220ms">CASE STUDY · BONIFY / SCHUFA GROUP</div>
+      <div class="cs-meta enter" style="--d:460ms">
+        <span style="color: rgb(255, 255, 255)"><strong>Role:</strong> Product / UX Designer</span>
+        <span style="color: rgb(255, 255, 255)"><strong>Platform:</strong> Web, Mobile Web, App</span>
+      </div>
+    </div>
+    <figure class="cs-cover enter" style="--d:640ms">
+      <div class="cc-hero-mock">
+        <div class="cc-browser">
+          <div class="cc-browser-bar">
+            <span class="cc-dot"></span>
+            <span class="cc-dot"></span>
+            <span class="cc-dot"></span>
+            <span class="cc-url">bonify.de/kreditkarten</span>
+          </div>
+          <div class="cc-browser-screen">
+            <img src="assets/cc/cover-web.png" alt="The redesigned bonify credit-card marketplace on desktop — a filter bar (High approval chance, Travel rewards, Low interest), an expanded Mastercard offer card showing annual fee, interest rate, full card information, payment details and benefits at a glance.">
+          </div>
+        </div>
+        <div class="cc-phone" aria-hidden="true">
+          <div class="device-screen device-screen--crop">
+            <img src="assets/cc/mob-offers.png" alt="">
+          </div>
+        </div>
+      </div>
+    </figure>
+  </div>
+</header>
+
+<!-- ============ BODY ============ -->
+<article class="section bg-white" style="padding-top:64px;" data-screen-label="Case study body">
+  <div class="cs-body">
+
+    <!-- 01 PROBLEM -->
+    <section class="cs-chapter reveal">
+      <div class="eyebrow">01 · THE PROBLEM</div>
+      <h2 class="cs-chapter-title">Every card looked the same</h2>
+      <p class="cs-text">The marketplace presented every credit card the same way, regardless of who was looking. A user landed on a long list of near-identical offers and was left to do all the work themselves: compare cards manually, decode financial jargon, and somehow figure out which one actually suited them.</p>
+      <p class="cs-text">The result was cognitive overload. People couldn't tell which card was right for them, lost confidence in their own choice, and disengaged before applying. The offers weren't bad — the experience just gave nobody a reason to pick one over another.</p>
+
+      <figure class="cs-figure cs-figure--wide reveal">
+        <img src="assets/cc/before-annotated.png" alt="The original mobile-web and web marketplace with critique annotations: no personalization, all offers look identical, key benefits buried in long text, filters hidden far below and lacking clarity, and the comparison table feeling disconnected from the page.">
+        <figcaption>The starting point. I audited the old web and mobile flows and mapped every friction point: <strong>no personalization, identical-looking offers, buried benefits, hidden filters, and a comparison table that felt like a different page entirely.</strong></figcaption>
+      </figure>
+
+      <p class="cs-text">Five problems kept surfacing: no personalization, weak differentiation between offers, limited filtering, important decision criteria buried, and users left unsure which card fit their profile.</p>
+    </section>
+
+    <!-- 02 RESEARCH -->
+    <section class="cs-chapter reveal">
+      <div class="eyebrow">02 · RESEARCH</div>
+      <h2 class="cs-chapter-title">What actually drives the choice</h2>
+      <p class="cs-text">I started outside our own product. I benchmarked five marketplaces people already trust — Check24, NerdWallet, Forbes Advisor, Credit Karma, and Capital One — to see what each did well and where the opening was for us.</p>
+
+      <figure class="cs-figure cs-figure--wide reveal">
+        <img src="assets/cc/competitive.png" alt="Competitive analysis table comparing Check24, NerdWallet, Forbes Advisor, Credit Karma and Capital One across key features, layout structure, strengths, weaknesses and opportunities for us.">
+        <figcaption>Competitive analysis. The pattern was clear: the strongest players win on <strong>personalization and approval-odds</strong> — exactly the area where bonify's own credit data gave us an unfair advantage.</figcaption>
+      </figure>
+
+      <p class="cs-text">Across the research, the same handful of factors decided which card people chose — and they weren't evenly weighted.</p>
+
+      <figure class="cs-figure cs-figure--wide cs-figure--soft reveal">
+        <img src="assets/cc/research-drivers.png" alt="Top 5 drivers in most studies: rewards & perks (highest influence, often over 80%), cash back / reward type, annual fees & APR, social trust / recommendations, and eligibility / recommendation indicator such as 'good match for your profile' or 'approval chance'.">
+        <figcaption>The top five decision drivers. Rewards lead, but <strong>eligibility signals — “good match for your profile,” “approval chance” — were the lever no competitor in our market had pulled.</strong></figcaption>
+      </figure>
+
+      <p class="cs-text">That gave us four opportunity areas to design against: personalization, smarter comparison, better filtering, and confidence-building.</p>
+
+      <figure class="cs-figure cs-figure--wide cs-figure--soft reveal">
+        <img src="assets/cc/opportunities.png" alt="Opportunities for us: Personalization (recommend 'Best Match' cards with approval chance), Smart Compare (guided comparison with highlighted benefits), Advisor (let users ask which card suits them), and showing reward/cashback points (estimated annual savings).">
+        <figcaption>Four opportunity areas, each tied directly to a research finding.</figcaption>
+      </figure>
+    </section>
+
+    <!-- 03 STRATEGY -->
+    <section class="cs-chapter reveal">
+      <div class="eyebrow">03 · DESIGN STRATEGY</div>
+      <h2 class="cs-chapter-title">Designing for the decision, not the card</h2>
+      <p class="cs-text">The instinct was to redesign the card UI. The real job was to improve the decision. So instead of prettier cards, I built three things that reduced the work of choosing — each one drawn straight from the research.</p>
+
+      <div class="cs-subhead">1 · Personalized approval chance</div>
+      <p class="cs-text">Users didn't know whether they'd even qualify — and that uncertainty quietly killed applications. Using bonify's own credit data, I added a profile-based approval indicator (“90% approval chance”) so people could see, up front, which offers were realistic for them.</p>
+
+      <figure class="cs-showcase reveal" style="background: radial-gradient(120% 90% at 50% 0%, rgba(26,158,110,0.18) 0%, rgba(26,158,110,0) 55%), linear-gradient(168deg, #16221C 0%, #11140E 80%);">
+        <div class="cs-showcase-devices">
+          <div class="cs-device-col">
+            <div class="device">
+              <div class="device-screen device-screen--crop">
+                <img src="assets/cc/mob-offers.png" alt="Mobile credit-card offers screen — 'We've selected cards that fit your financial profile', filter chips for High approval chance / Travel rewards / Low interest, and offer cards with approval chance, fees and a clear primary CTA.">
+              </div>
+            </div>
+            <div class="cs-device-tag"><span class="num">01</span> Personalized offers, ranked by fit</div>
+          </div>
+        </div>
+        <figcaption class="cs-showcase-caption"><strong>“Cards that fit your profile.”</strong> The list now opens with relevance — approval chance surfaced on every card, so people prioritise the offers they're actually likely to get and apply with more confidence.</figcaption>
+      </figure>
+
+      <div class="cs-subhead">2 · Filtering people actually use</div>
+      <p class="cs-text">The old filters were hidden, vague, and demanded too many clicks. I rebuilt them around the criteria research said people decide on — and surfaced the most common ones as one-tap chips so narrowing the list took seconds, not a sub-menu hunt.</p>
+
+      <figure class="cs-figure cs-figure--wide cs-figure--soft reveal">
+        <img src="assets/cc/filter-strategy.png" alt="Filter options grouped into meaningful categories: card type / use case, annual fee, rewards type, eligibility / credit-score requirement, approval chance, APR / interest rate, and card brand.">
+        <figcaption>The filter model — built around real decision criteria (use case, fee, rewards, eligibility, approval chance, APR, brand) rather than database fields.</figcaption>
+      </figure>
+
+      <figure class="cs-showcase reveal" style="background: radial-gradient(120% 90% at 50% 0%, rgba(26,158,110,0.18) 0%, rgba(26,158,110,0) 55%), linear-gradient(168deg, #16221C 0%, #11140E 80%);">
+        <div class="cs-showcase-devices">
+          <div class="cs-device-col">
+            <div class="device">
+              <div class="device-screen device-screen--crop">
+                <img src="assets/cc/mob-filter.png" alt="Mobile 'Filter By' bottom sheet — card type, annual fee, reward type, card system and APR as tappable chips with a sticky 'Apply filter' button.">
+              </div>
+            </div>
+            <div class="cs-device-tag"><span class="num">02</span> One-tap filters, on a sheet that gets out of the way</div>
+          </div>
+        </div>
+        <figcaption class="cs-showcase-caption"><strong>Meaningful, tappable, fast.</strong> Card type, fee, rewards, brand and APR as chips on a single sheet — the effort of finding a relevant card dropped sharply.</figcaption>
+      </figure>
+
+      <div class="cs-subhead">3 · Offer cards with a hierarchy</div>
+      <p class="cs-text">The old cards had information but no order — the things that drive a decision were buried in body text. I rebuilt the card around a priority hierarchy: welcome bonus, card identity, approval chance, annual fee, interest rate, savings potential, then the CTA. Everything a person needs to decide, in the order they need it.</p>
+
+      <figure class="cs-figure cs-figure--wide reveal">
+        <img src="assets/cc/components.png" alt="The offer-card component system — approval-chance status badges, compact and expanded offer cards, special-offer and applied-card variants, all built as reusable components.">
+        <figcaption>The card as a component system — compact, expanded, special-offer and applied states, with approval-chance badges, so the new hierarchy held up across every context in the marketplace.</figcaption>
+      </figure>
+    </section>
+
+    <!-- 04 OUTCOME -->
+    <section class="cs-chapter reveal">
+      <div class="eyebrow">04 · THE OUTCOME</div>
+      <h2 class="cs-chapter-title">Leads up 233%</h2>
+      <div class="cs-metrics">
+        <div class="cs-metric">
+          <div class="cs-metric-num">↑233%</div>
+          <div class="cs-metric-label">Increase in lead conversion after launch</div>
+        </div>
+        <div class="cs-metric">
+          <div class="cs-metric-num">3</div>
+          <div class="cs-metric-label">Decision-support features: approval chance, smart filters, ranked offers</div>
+        </div>
+        <div class="cs-metric">
+          <div class="cs-metric-num">5</div>
+          <div class="cs-metric-label">Marketplaces benchmarked to find the personalization gap</div>
+        </div>
+      </div>
+      <p class="cs-text">The number that matters underneath the 233% is <em>why</em> it moved. People could finally identify a suitable card quickly, understand their approval likelihood, filter offers without friction, and compare the criteria that actually mattered:</p>
+      <ul class="cs-list">
+        <li><strong>Quickly identify suitable cards</strong> instead of scanning an undifferentiated list.</li>
+        <li><strong>Understand approval likelihood</strong> before investing effort in an application.</li>
+        <li><strong>Filter relevant offers faster</strong> with criteria built around real decisions.</li>
+        <li><strong>Compare key financial criteria</strong> — fee, APR, rewards, savings — at a glance.</li>
+        <li><strong>Decide with confidence</strong>, guided toward fit rather than left to self-serve.</li>
+      </ul>
+    </section>
+
+    <!-- 05 LEARNINGS -->
+    <section class="cs-chapter reveal">
+      <div class="eyebrow">05 · WHAT I LEARNED</div>
+      <h2 class="cs-chapter-title">Decision support beats information</h2>
+      <p class="cs-text">This started as a card redesign and became a marketplace-optimization project. The lesson held all the way through: <strong>personalization builds confidence</strong> — showing approval probability turned a wall of options into a short list of realistic ones.</p>
+      <p class="cs-pull">"Users responded better when the experience guided them toward relevant offers — not when it presented everything equally."</p>
+      <p class="cs-text">Simpler comparisons improved decisions. Highlighting only the most important criteria cut cognitive load, and guiding people toward relevant offers beat showing them everything at once. The win wasn't a better-looking card — it was an experience that helped people choose.</p>
+    </section>
+
+  </div>
+</article>
+
+<!-- ============ CASE STUDY NAV ============ -->
+<section class="section bg-white" style="padding-top:0;" data-screen-label="Case study nav">
+  <div class="cs-nav">
+    <a href="case-study-bbq.html" data-transition>
+      <span class="cs-nav-meta">PREVIOUS CASE STUDY</span>
+      ← BBQ Nation
+    </a>
+    <a href="index.html#case-studies" data-transition class="cs-nav-next">
+      <span class="cs-nav-meta">←</span>
+      Back to case studies
+    </a>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer" data-screen-label="Contact">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="reveal">
+        <div class="eyebrow">GET IN TOUCH</div>
+        <p class="footer-quote">Open to the right problem.</p>
+        <p class="footer-sub">Senior and lead roles in fintech, healthcare, AI products, or wherever the data is complex and the stakes feel real. Remote, hybrid, or Nürnberg.</p>
+        <a href="mailto:pramodinius@gmail.com" class="footer-email">pramodinius@gmail.com →</a>
+        <a href="resume.pdf" download class="ghost-btn footer-resume">Download resume ↓</a>
+      </div>
+      <div class="footer-rows reveal reveal-d1">
+        <div class="footer-row">
+          <div class="footer-label">Based in</div>
+          <div class="footer-value">Nürnberg, Germany</div>
+        </div>
+        <div class="footer-row">
+          <div class="footer-label">Open to</div>
+          <div class="footer-value">Remote · Hybrid · Relocation</div>
+        </div>
+        <div class="footer-row">
+          <div class="footer-label">Find me</div>
+          <div class="footer-value">
+            <a href="https://www.linkedin.com/in/pramodinius/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://dribbble.com/Pramodini" target="_blank" rel="noopener">Dribbble</a>
+            <a href="https://www.behance.net/pramodinius" target="_blank" rel="noopener">Behance</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Pramodini Subramanya</span>
+      <span>Built with intention — and Claude.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

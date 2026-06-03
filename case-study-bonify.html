@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SCHUFA Score History — Case Study · Pramodini Subramanya</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Outfit:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="scroll-bar"></div>
+
+<!-- ============ NAV ============ -->
+<nav class="nav enter">
+  <a href="index.html" class="nav-brand brand-logo" data-transition><span class="brand-mark">Ps</span><span class="brand-name">Pramodini Subramanya</span></a>
+  <div class="nav-right">
+    <div class="nav-links">
+      <a href="index.html#case-studies" class="active" data-transition>Case studies</a>
+      <a href="index.html#how-i-work" data-transition>How I work</a>
+      <a href="about.html" data-transition>About</a>
+    </div>
+    <a href="resume.pdf" download class="ghost-btn">Resume ↓</a>
+    <button class="nav-burger" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-menu">
+  <a href="index.html#case-studies" data-transition>Case studies</a>
+  <a href="index.html#how-i-work" data-transition>How I work</a>
+  <a href="about.html" data-transition>About</a>
+  <a href="resume.pdf" download>Resume ↓</a>
+</div>
+
+<!-- ============ HERO ============ -->
+<header class="hero" data-screen-label="Case study hero">
+  <div class="hero-inner cs-hero-grid">
+    <div class="cs-hero-copy">
+      <div class="cs-breadcrumb enter" style="--d:120ms">
+        <a href="index.html#case-studies" data-transition>← Portfolio</a>
+        <span>→</span>
+        <a href="index.html#case-studies" data-transition>Case studies</a>
+        <span>→</span>
+        <span style="color:rgba(255,255,255,0.5);">bonify</span>
+      </div>
+      <div class="eyebrow hero-eyebrow enter" style="--d:220ms">CASE STUDY · BONIFY / SCHUFA GROUP</div>
+      <h1 class="cs-headline enter" style="--d:340ms">Turning a credit score into a story 60,000 people wanted to read</h1>
+      <div class="cs-meta enter" style="--d:460ms; font-size: 14px">
+        <span style="color: rgb(255, 255, 255)"><strong>Role:</strong> Sole designer</span>
+        <span style="color: rgb(255, 255, 255)"><strong>Platform:</strong> iOS, Android, Web</span>
+        <span style="color: rgb(255, 255, 255); font-weight: 900; font-size: 16px"><strong>Outcome:</strong> 60K+ users, month one</span>
+      </div>
+    </div>
+    <div class="cs-hero-visual enter" style="--d:560ms" aria-hidden="true">
+      <div class="device cs-hero-phone cs-hero-phone--back">
+        <div class="device-screen device-screen--crop">
+          <img src="assets/schufa-score-history.png" alt="">
+        </div>
+      </div>
+      <div class="device cs-hero-phone cs-hero-phone--front">
+        <div class="device-screen device-screen--crop">
+          <img src="assets/schufa-dateneinblick.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ BODY ============ -->
+<article class="section bg-white" data-screen-label="Case study body">
+  <div class="cs-body">
+
+    <section class="cs-chapter reveal">
+      <div class="eyebrow">01 · THE PROBLEM</div>
+      <h2 class="cs-chapter-title">A number that meant nothing</h2>
+      <p class="cs-text">When I joined this project, the brief was: visualise a user's credit score over time. Show them how it's moved. Let them see the history.</p>
+      <p class="cs-text">The problem was that nobody had asked whether the number itself meant anything to people first.</p>
+      <p class="cs-text">I ran 8 user interviews in the first two weeks. What I heard: people knew their score went up or down. They had no idea why. They didn't know what a 'good' score looked like. They were anxious every time they opened the feature — not because the data was bad, but because they didn't know how to read it.</p>
+      <p class="cs-text">Showing them more data wasn't going to fix that. It was going to make it worse.</p>
+    </section>
+
+    <section class="cs-chapter reveal">
+      <div class="eyebrow">02 · THE DIRECTIONS </div>
+      <h2 class="cs-chapter-title">Two ways that looked right until they didn't</h2>
+
+      <div class="cs-subhead">The dashboard approach</div>
+      <p class="cs-text">My first direction was comprehensive — a full dashboard showing score history, contributing factors, comparisons, recommendations. It tested well with me and the team. It tested terribly with users. They opened it, felt overwhelmed, and closed it. One participant said: 'This looks like it's for someone who already understands this stuff. That's not me.' We killed it.</p>
+
+      <div class="cs-subhead">The timeline approach</div>
+      <p class="cs-text">Second direction: a clean timeline — score on the Y axis, time on the X axis, minimal labels. Intuitive, right? Except the score doesn't change often enough to make a satisfying chart. Six months of data looked like a flat line with two blips. Users read it as: nothing is happening, this isn't useful. We killed that too.</p>
+
+      <p class="cs-pull">"This looks like it's for someone who already understands this stuff. That's not me."</p>
+    </section>
+
+    <section class="cs-chapter reveal">
+      <div class="eyebrow">03 · WHAT WE SHIPPED</div>
+      <h2 class="cs-chapter-title">Score first, story on demand</h2>
+      <p class="cs-text">The insight that unlocked everything came from a user in the third round of testing. She said: 'I just want to know if I'm doing okay. Then I want to understand why.'</p>
+      <p class="cs-text">That was the design. Score first — clear, contextualised, 'you're doing okay.' Then the history as a story you could explore if you wanted to understand more. Not the other way around.</p>
+      <p class="cs-text">We added contextual benchmarks ('your score is higher than 68% of users your age'), plain-language explanations of what moved the score, and a timeline that only showed meaningful changes — not every data point.</p>
+
+      <figure class="cs-showcase reveal">
+        <div class="cs-showcase-devices">
+          <div class="cs-device-col">
+            <div class="device">
+              <div class="device-screen device-screen--crop">
+                <img src="assets/schufa-dateneinblick.png" alt="SCHUFA Dateneinblick home screen — the green score ring showing 849 of 999 points rated Hervorragend, a 'Score-Details ansehen' button, and a 'Track your score over time' card linking to score history.">
+              </div>
+            </div>
+            <div class="cs-device-tag"><span class="num">01</span> Home — the entry point</div>
+          </div>
+
+          <div class="cs-flow-arrow" aria-hidden="true">&rarr;</div>
+
+          <div class="cs-device-col">
+            <div class="device">
+              <div class="device-screen device-screen--crop">
+                <img src="assets/schufa-score-history.png" alt="SCHUFA Score-Verlauf screen — current score of 960 points rated Hervorragend, a weekly history line, a colour-key prompt, and plain-language factors maintaining the score.">
+              </div>
+            </div>
+            <div class="cs-device-tag"><span class="num">02</span> Score-Verlauf — the history</div>
+          </div>
+
+          <div class="cs-flow-arrow" aria-hidden="true">&rarr;</div>
+
+          <div class="cs-device-col">
+            <div class="device">
+              <div class="device-screen device-screen--crop">
+                <img src="assets/schufa-klassen.png" alt="'Was bedeuten die Klassen?' explainer screen — each score class (Hervorragend, Gut, Akzeptabel) described in plain language with the share of people in it.">
+              </div>
+            </div>
+            <div class="cs-device-tag"><span class="num">03</span> Score-Klassen — what it means</div>
+          </div>
+        </div>
+        <figcaption class="cs-showcase-caption"><strong>Score first, story on demand.</strong> The home screen leads with the score and rating; one tap opens Score-Verlauf to see how it moved; and every class is explained in plain language &mdash; so the number finally meant something people could read.</figcaption>
+      </figure>
+    </section>
+
+    <section class="cs-chapter reveal">
+      <div class="eyebrow">04 · THE OUTCOME</div>
+      <h2 class="cs-chapter-title">What happened</h2>
+      <div class="cs-metrics">
+        <div class="cs-metric">
+          <div class="cs-metric-num">60K+</div>
+          <div class="cs-metric-label">Users in month one (target was 20K)</div>
+        </div>
+        <div class="cs-metric">
+          <div class="cs-metric-num">↑15%</div>
+          <div class="cs-metric-label">Subscription conversion — feature drove measurable uplift</div>
+        </div>
+        <div class="cs-metric">
+          <div class="cs-metric-num">60%</div>
+          <div class="cs-metric-label">Of users who opened it came back within 7 days</div>
+        </div>
+      </div>
+      <p class="cs-text">The metric I care most about isn't the 60K. It's the 7-day return rate. People came back. For a feature about credit data — something most people find stressful — that felt like the right signal. It meant we'd made it feel useful, not anxious-making.</p>
+    </section>
+
+    <section class="cs-chapter reveal">
+      <div class="eyebrow">05 · WHAT I LEARNED</div>
+      <h2 class="cs-chapter-title">What I'd do differently</h2>
+      <p class="cs-text">I'd have run the first round of research sooner and used it to challenge the brief before I started exploring. I spent time on Direction A that I shouldn't have — not because it was a bad direction, but because we hadn't validated whether the brief itself was right. The user who said 'this looks like it's for someone who already understands this' would have said that in week one if I'd asked her in week one.</p>
+    </section>
+
+  </div>
+</article>
+
+<!-- ============ CASE STUDY NAV ============ -->
+<section class="section bg-white" style="padding-top:0;" data-screen-label="Case study nav">
+  <div class="cs-nav">
+    <a href="index.html#case-studies" data-transition>
+      <span class="cs-nav-meta">←</span>
+      Back to case studies
+    </a>
+    <a href="case-study-bbq.html" data-transition class="cs-nav-next">
+      <span class="cs-nav-meta">NEXT CASE STUDY</span>
+      BBQ Nation →
+    </a>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer" data-screen-label="Contact">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="reveal">
+        <div class="eyebrow">GET IN TOUCH</div>
+        <p class="footer-quote">Open to the right problem.</p>
+        <p class="footer-sub">Senior and lead roles in fintech, healthcare, AI products, or wherever the data is complex and the stakes feel real. Remote, hybrid, or Nürnberg.</p>
+        <a href="mailto:pramodinius@gmail.com" class="footer-email">pramodinius@gmail.com →</a>
+        <a href="resume.pdf" download class="ghost-btn footer-resume">Download resume ↓</a>
+      </div>
+      <div class="footer-rows reveal reveal-d1">
+        <div class="footer-row">
+          <div class="footer-label">Based in</div>
+          <div class="footer-value">Nürnberg, Germany</div>
+        </div>
+        <div class="footer-row">
+          <div class="footer-label">Open to</div>
+          <div class="footer-value">Remote · Hybrid · Relocation</div>
+        </div>
+        <div class="footer-row">
+          <div class="footer-label">Find me</div>
+          <div class="footer-value">
+            <a href="https://www.linkedin.com/in/pramodinius/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://dribbble.com/Pramodini" target="_blank" rel="noopener">Dribbble</a>
+            <a href="https://www.behance.net/pramodinius" target="_blank" rel="noopener">Behance</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Pramodini Subramanya</span>
+      <span>Built with intention — and Claude.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

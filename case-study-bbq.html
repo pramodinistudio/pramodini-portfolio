@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barbeque Nation Checkout — Case Study · Pramodini Subramanya</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Outfit:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="scroll-bar"></div>
+
+<!-- ============ NAV ============ -->
+<nav class="nav enter">
+  <a href="index.html" class="nav-brand brand-logo" data-transition><span class="brand-mark">Ps</span><span class="brand-name">Pramodini Subramanya</span></a>
+  <div class="nav-right">
+    <div class="nav-links">
+      <a href="index.html#case-studies" class="active" data-transition>Case studies</a>
+      <a href="index.html#how-i-work" data-transition>How I work</a>
+      <a href="about.html" data-transition>About</a>
+    </div>
+    <a href="resume.pdf" download class="ghost-btn">Resume ↓</a>
+    <button class="nav-burger" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-menu">
+  <a href="index.html#case-studies" data-transition>Case studies</a>
+  <a href="index.html#how-i-work" data-transition>How I work</a>
+  <a href="about.html" data-transition>About</a>
+  <a href="resume.pdf" download>Resume ↓</a>
+</div>
+
+<!-- ============ HERO ============ -->
+<header class="hero" data-screen-label="Case study hero">
+  <div class="hero-inner cs-hero-grid">
+    <div class="cs-hero-copy">
+      <div class="cs-breadcrumb enter" style="--d:120ms">
+        <a href="index.html#case-studies" data-transition>← Portfolio</a>
+        <span>→</span>
+        <a href="index.html#case-studies" data-transition>Case studies</a>
+        <span>→</span>
+        <span style="color:rgba(255,255,255,0.5);">BBQ Nation</span>
+      </div>
+      <div class="eyebrow hero-eyebrow enter" style="--d:220ms">CASE STUDY · CUMULATIONS / BARBEQUE NATION</div>
+      <h1 class="cs-headline enter" style="--d:340ms">One decision in a checkout flow that moved orders by 12%</h1>
+      <div class="cs-meta enter" style="--d:460ms">
+        <span style="color: rgb(255, 255, 255); font-size: 14px"><strong>Role:</strong> Senior designer</span>
+        <span style="color: rgb(255, 255, 255); font-size: 14px"><strong>Platform:</strong> iOS, Android</span>
+        <span style="color: rgb(255, 255, 255); font-weight: 900; font-size: 16px"><strong>Outcome:</strong> 12% order lift, 20% faster checkout</span>
+      </div>
+    </div>
+    <div class="cs-hero-visual cs-hero-visual--bbq enter" style="--d:560ms" aria-hidden="true">
+      <img class="bbq-phone bbq-phone--back" src="assets/bbq/pm7.png" alt="">
+      <img class="bbq-phone bbq-phone--front" src="assets/bbq/pm13.png" alt="">
+    </div>
+  </div>
+</header>
+
+<!-- ============ BODY ============ -->
+<article class="section bg-white" data-screen-label="Case study body">
+  <div class="cs-body">
+
+    <section class="cs-chapter reveal">
+      <div class="eyebrow">01 · THE PROBLEM</div>
+      <h2 class="cs-chapter-title">The checkout wasn't broken. It was just one step too long.</h2>
+      <p class="cs-text">The checkout wasn't broken. It was just one step too long. And that step was costing orders.</p>
+      <p class="cs-text">This was a high-traffic food app. People came in hungry, with intent — they'd already decided to order. By the time they reached checkout, the job of the design was simple: get out of the way. Instead, the flow asked them to make a decision they weren't ready to make yet, at the exact moment their motivation was highest and their patience was lowest.</p>
+      <p class="cs-text">I pulled the funnel data. There was a clear, measurable drop at one specific step. Not a mystery — a number.</p>
+    </section>
+
+    <section class="cs-chapter reveal">
+      <div class="eyebrow">02 · THE DIRECTION </div>
+      <h2 class="cs-chapter-title">The full redesign nobody needed yet</h2>
+      <p class="cs-text">The team wanted a full redesign. I argued for a single change first. We had a tense conversation about it.</p>
+      <p class="cs-text">A full redesign is satisfying to scope and easy to sell internally — it looks like progress. But it also takes months, introduces a dozen new variables, and makes it impossible to know which change actually moved the metric. I didn't want a prettier checkout. I wanted to know whether removing one step would do most of the work a full redesign was being asked to do.</p>
+      <p class="cs-text">So we agreed to test the small change first. If it didn't move the numbers, the redesign was back on the table — with better information.</p>
+    </section>
+
+    <section class="cs-chapter reveal">
+      <div class="eyebrow">03 · WHAT WE SHIPPED</div>
+      <h2 class="cs-chapter-title">One decision, moved</h2>
+      <p class="cs-text">We removed the delivery time selector from the main checkout flow and moved it to confirmation. That's it. One decision.</p>
+      <p class="cs-text">The insight was that people didn't need to choose a delivery time before paying — they needed to choose it before the food arrived. Those are different moments. By moving the selector to confirmation, we let people complete the high-intent action (pay) without interruption, then handle the lower-stakes detail (timing) once they were already committed.</p>
+      <p class="cs-pull">"Sometimes the right design move is to do less than everyone expects you to do."</p>
+      <div class="cs-shots cs-shots--row">
+        <div class="cs-shots-panel">
+          <img src="assets/bbq-mock-1.png" alt="Barbeque Nation app — happiness card screen" loading="lazy">
+          <img src="assets/bbq-mock-3.png" alt="Barbeque Nation app — booking screen" loading="lazy">
+          <img src="assets/bbq-mock-4.png" alt="Barbeque Nation app — menu screen" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="cs-chapter reveal">
+      <div class="eyebrow">04 · THE OUTCOME</div>
+      <h2 class="cs-chapter-title">What happened</h2>
+      <div class="cs-metrics">
+        <div class="cs-metric">
+          <div class="cs-metric-num">+12%</div>
+          <div class="cs-metric-label">Order completion lift over 3 months</div>
+        </div>
+        <div class="cs-metric">
+          <div class="cs-metric-num">−20%</div>
+          <div class="cs-metric-label">Time-to-checkout reduction</div>
+        </div>
+        <div class="cs-metric">
+          <div class="cs-metric-num">1</div>
+          <div class="cs-metric-label">Step removed — no full redesign required</div>
+        </div>
+      </div>
+      <p class="cs-text">12% more orders completed. 20% faster to checkout. Over three months, with one change that took a fraction of the time a full redesign would have. The redesign conversation didn't go away — but now it could be about the things that actually still needed fixing, not the one step we already knew was the problem.</p>
+      <div class="cs-shots cs-shots--row">
+        <div class="cs-shots-panel">
+          <img src="assets/bbq-mock-2.png" alt="Barbeque Nation app — rewards screen" loading="lazy">
+          <img src="assets/bbq-mock-5.png" alt="Barbeque Nation app — order screen" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="cs-chapter reveal">
+      <div class="eyebrow">05 · WHAT I LEARNED</div>
+      <h2 class="cs-chapter-title">Do less than everyone expects</h2>
+      <p class="cs-text">Sometimes the right design move is to do less than everyone expects you to do. The hard part isn't finding the small change — it's holding the line on it when a bigger, more impressive-looking project is sitting right there. The data gave me the confidence to have that tense conversation. It's a lot easier to argue for restraint when you can point at a number.</p>
+    </section>
+
+  </div>
+</article>
+
+<!-- ============ CASE STUDY NAV ============ -->
+<section class="section bg-white" style="padding-top:0;" data-screen-label="Case study nav">
+  <div class="cs-nav">
+    <a href="case-study-bonify.html" data-transition>
+      <span class="cs-nav-meta">PREVIOUS CASE STUDY</span>
+      ← bonify / SCHUFA
+    </a>
+    <a href="case-study-cc.html" data-transition class="cs-nav-next">
+      <span class="cs-nav-meta">NEXT CASE STUDY</span>
+      Credit Card Marketplace →
+    </a>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer" data-screen-label="Contact">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="reveal">
+        <div class="eyebrow">GET IN TOUCH</div>
+        <p class="footer-quote">Open to the right problem.</p>
+        <p class="footer-sub">Senior and lead roles in fintech, healthcare, AI products, or wherever the data is complex and the stakes feel real. Remote, hybrid, or Nürnberg.</p>
+        <a href="mailto:pramodinius@gmail.com" class="footer-email">pramodinius@gmail.com →</a>
+        <a href="resume.pdf" download class="ghost-btn footer-resume">Download resume ↓</a>
+      </div>
+      <div class="footer-rows reveal reveal-d1">
+        <div class="footer-row">
+          <div class="footer-label">Based in</div>
+          <div class="footer-value">Nürnberg, Germany</div>
+        </div>
+        <div class="footer-row">
+          <div class="footer-label">Open to</div>
+          <div class="footer-value">Remote · Hybrid · Relocation</div>
+        </div>
+        <div class="footer-row">
+          <div class="footer-label">Find me</div>
+          <div class="footer-value">
+            <a href="https://www.linkedin.com/in/pramodinius/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://dribbble.com/Pramodini" target="_blank" rel="noopener">Dribbble</a>
+            <a href="https://www.behance.net/pramodinius" target="_blank" rel="noopener">Behance</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Pramodini Subramanya</span>
+      <span>Built with intention — and Claude.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
