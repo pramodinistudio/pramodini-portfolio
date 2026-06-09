@@ -17,14 +17,11 @@
 
   // ---- CONFIG -------------------------------------------------
   var PASSWORD   = "pramodini2026";          // ← change this to set your password
-  var STORE_KEY  = "ps_cs_unlocked_v1";      // bump the suffix to force everyone to re-enter
   var HINT       = "Ask Pramodini for access.";
   // -------------------------------------------------------------
 
-  // Already unlocked this browser? Skip the gate.
-  try {
-    if (window.localStorage && localStorage.getItem(STORE_KEY) === "1") return;
-  } catch (e) { /* storage blocked — show gate anyway */ }
+  // The password is required on EVERY visit — no unlock is remembered,
+  // so returning visitors and each case study always prompt again.
 
   // Hide the page immediately (runs from <head>, before body paints).
   var hideStyle = document.createElement("style");
@@ -119,7 +116,6 @@
     form.addEventListener("submit", function (ev) {
       ev.preventDefault();
       if (input.value === PASSWORD) {
-        try { localStorage.setItem(STORE_KEY, "1"); } catch (e) {}
         wrap.classList.add("out");
         document.documentElement.classList.remove("gate-locked");
         setTimeout(function () { wrap.remove(); }, 500);
